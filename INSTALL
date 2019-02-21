@@ -1,0 +1,9 @@
+Building Zepcoin
+
+See doc/readme-qt.rst for instructions on building Zepcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Zepcoin.
+
+See doc/build-*.txt for instructions on building Zepcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Zepcoin.

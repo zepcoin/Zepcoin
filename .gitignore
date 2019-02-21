@@ -1,0 +1,34 @@
+src/*.exe
+src/Zepcoin
+src/Zepcoind
+src/test_Zepcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.Zepcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+Zepcoin-qt
+Zepcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+Zepcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
